@@ -9,7 +9,7 @@ This package enables a BrightSpace authenticated user [API_USER] to utlise the B
     1. Enrol a user in a BrightSpace Org Unit - PROCEDURE ENROLIND2LOU
     2. Unenrol a user in a BrightSpace Org Unit - PROCEDURE DELETEFROMD2LOU
     
-## Requiremnts:
+## Requirements:
 
     1. The authenticated user must have the appropriate permissions the follwoing tools on BrightSpace:
      - user information privacy
