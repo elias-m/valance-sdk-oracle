@@ -17,7 +17,10 @@ This package enables a BrightSpace authenticated user [API_USER] to utlise the B
      - user profile
      - classlist
      
-    2. An oAuth2.0 App must be created in the LE and it's scope must be set to: core:*:* enrollment:*:*
+    2. An oAuth2.0 App must be registered in BrightSpace:
+     - for the scope field use: core:*:* enrollment:*:*
+     - Make sure Enable refresh tokens is checked on.
+     - And Prompt For User Consent? is off
   
  ## Dependencies:
  
@@ -26,5 +29,11 @@ This package enables a BrightSpace authenticated user [API_USER] to utlise the B
     - D2L_API_COOKIES
     - D2L_API_LOGS
     - D2L_API_CONFIG
+    
+ ## Installation
+    1. add the package to Oracle 
+    2. create a Wallet
+    3. update the D2L_API_CONSUMER_SETUP.sql 
+    4. execute D2L_API_CONSUMER_SETUP.sql
 
    
