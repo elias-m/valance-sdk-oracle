@@ -36,4 +36,5 @@ This package enables a BrightSpace authenticated user [API_USER] to utlise the B
     3. update the D2L_API_CONSUMER_SETUP.sql
     4. execute D2L_API_CONSUMER_SETUP.sql
 
-   
+ ## Testing
+    This package was tested with Oracle 11.2
